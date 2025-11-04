@@ -1,10 +1,40 @@
 # BiCap Dataset
 
-BiCap is a novel bi-modal dataset designed to advance the development of learning from demonstration (LfD) algorithms in dual-arm robotic manipulation. It comprises 4,026 demonstrations collected from fifteen participants performing pouring, opening, and passing tasks with household objects. Each demonstration includes an RGB video recording, upper-limb kinematics, and a symbolic task plan annotated using a bio-inspired action context-free grammar (BACFG). BiCap overcomes fundamental limitations of existing LfD datasets, which often lack formally structured symbolic annotations and exhaustive capture of dual-arm manipulation skills, by coupling fine-grained symbolic representations with trajectory data. It provides a rigorous foundation for developing and evaluating algorithms capable of learning, planning, and generalising complex dual-arm manipulation behaviors.
+BiCap is a novel bimodal dataset designed to advance the development of learning-from-demonstration (LfD) algorithms for dual-arm robotic manipulation. It comprises 4,026 demonstrations collected from fifteen participants performing pouring, opening, and passing tasks with household objects. Each demonstration includes an RGB video recording, upper-limb kinematics, and a symbolic task plan annotated using a bio-inspired action context-free grammar (BACFG). BiCap overcomes fundamental limitations of existing LfD datasets, which often lack formally structured symbolic annotations and exhaustive capture of dual-arm manipulation skills, by coupling fine-grained symbolic representations with trajectory data. It provides a rigorous foundation for developing and evaluating algorithms capable of learning, planning, and generalising complex dual-arm manipulation behaviours.
 
 ## Brief Description
 
 A unique dataset collected using an RGB camera and an advanced motion capture system. The paper presenting BiCap is in the [International Journal of Robotics Research (IJRR)](https://journals.sagepub.com/doi/abs/10.1177/02783649241290836). Nevertheless, several slight improvements have been made to the dataset since its publication in IJRR. This website provides the latest information on BiCap.
+
+```bibtex
+@article{carmona_bicap_2025,
+	author = {Carmona, David and Yu, Haoyong},
+	title = {BiCap: A novel bi-modal dataset of daily living dual-arm manipulation actions},
+	journal = {The International Journal of Robotics Research},
+	volume = {44},
+	number = {6},
+	year = {2025},
+	pages = {891--907},
+	issn = {0278-3649},
+	url = {https://doi.org/10.1177/02783649241290836},
+	doi = {10.1177/02783649241290836}
+}
+```
+
+## Changelog
+
+- 11-2025:
+  * Create the website and the GitHub for BiCap.
+  * Make BiCap available on Dropbox to simplify the downloading.
+  * Remove BiCap from Terabox and re-direct to Dropbox.
+  * Add the mp4 format of the RGB videos.
+  * Remove the .svo videos as they are considerably large and require the ZED Explorer application to be opened.
+  
+- 05-2025:
+  * IJRR publishes the issue containing the paper.
+    
+- 11-2024:
+  * Publish the RGB videos, symbolic task plans, upper-limb kinematics, and online IJRR paper. The dataset is in Terabox.
 
 ## Getting Started
 
