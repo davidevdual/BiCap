@@ -25,8 +25,8 @@ A unique dataset collected using an RGB camera and an advanced motion capture sy
 
 - 11-2025:
   * Create the website and the GitHub for BiCap.
-  * Make BiCap available on Dropbox to simplify the downloading.
-  * Remove BiCap from Terabox and re-direct to Dropbox.
+  * Make BiCap available on Hugging Face to simplify the downloading.
+  * Remove BiCap from Terabox and re-direct to Hugging Face.
   * Add the mp4 format of the RGB videos.
   * Remove the .svo videos as they are considerably large and require the ZED Explorer application to be opened.
   
@@ -38,11 +38,15 @@ A unique dataset collected using an RGB camera and an advanced motion capture sy
 
 ## Getting Started
 
+### Download
+
+**BiCap can be downloaded from [Hugging Face](https://huggingface.co/datasets/davidcarmona/BiCap)**.
+
 ### Software
 
-The ZED Explorer software is required to visualise the videos (svo file format). ZED Explorer is available within the ZED SDK framework
-and can be downloaded from this link: https://www.stereolabs.com/developers/release. Please follow the instructions
-on ZED's website.
+* The RGB videos are mp4 files. They can be visualised using any player that supports mp4, such as VLC Media Player.
+* The motion capture data is inside csv files. Excel or LibreOffice Calc can be used to open the files.
+* The symbolic task plans are inside xml files. Any text editor should be able to read the xml file.
 
 ### Folder Hierarchy
 
@@ -54,13 +58,13 @@ on ZED's website.
     │   │    ├── passing_masterchef_04.csv      # The motion data for the fourth trial of the subject passing a masterchef can.
     │   │    └── ...
 	│   └── ...
-    ├── Videos                                  # Folder containing all the subjects' videos taken with the egocentric camera and their corresponding task plans. 
+    ├── Videos                                  # Folder containing all the subjects' videos taken with the RGB camera and their corresponding task plans. 
     │   ├── BBM01                               # Data of the subject number BBM01.
 	│   │   ├── Expt 1 (Pouring)                # Data of the first experiment (the pouring task).
-    │   │   │   ├── Bowl and Cracker box        # Video and task plan data for pouring a box of crackers into a bowl.
-    │   │   │   │   ├── Trial 1.svo             # Video data from the egocentric camera for the first trial.
+    │   │   │   ├── Bowl and Cracker box        # RGB Video and task plan data for pouring a box of crackers into a bowl.
+    │   │   │   │   ├── Trial 1.mp4             # RGB Video data from the camera for the first trial.
     │   │   │   │   ├── Trial 1.xml             # Task plan for the first trial.
-    │   │   │   │   ├── Trial 2.svo             # Video data from the egocentric camera for the second trial.
+    │   │   │   │   ├── Trial 2.mp4             # RGB Video data from the camera for the second trial.
     │   │   │   │   ├── Trial 2.xml             # Task plan for the second trial.
     │   │   │   │   └── ...
     │   │   │   └── ... 
@@ -69,8 +73,18 @@ on ZED's website.
 	├── participants.xlsx                       # The subjects' data.
     ├── readme.pdf
     └── readme.md
+
+### Camera
+
+	The RGB videos were captured with a [Stereolabs ZED2 camera](https://www.stereolabs.com/en-sg/blog/introducing-zed-2).
+
+### Motion Capture
+
 	
-### Miscellaneous
+	
+## Miscellaneous
+
+### Subjects Identifiers
 
 The subjects' identifiers inside the XML files differ from the folders' names (e.g., BBM01, BBM02, or BBM03). The mapping is:
 
@@ -90,6 +104,8 @@ The subjects' identifiers inside the XML files differ from the folders' names (e
 * BBM14: 024
 * BBM15: 025
 
+### Joint Angles Names
+
 The joint angles present in the csv files are:
 
 * LElbowAngles: Left elbow angles
@@ -100,6 +116,8 @@ The joint angles present in the csv files are:
 * RShoulderAngles: Right shoulder angles
 * RThoraxAngles: The forward tilt, the left tilt, and left rotation angles of the thorax
 * RWristAngles: Right wrist angles
+
+### Motion Capture Markers Positions
 
 The markers' positions in the csv are:
 
@@ -126,6 +144,8 @@ The markers' positions in the csv are:
 * RASI: Right anterior superior iliac
 * LPSI: Left posterior iliac
 * RPSI: Right posterior iliac
+
+### Unavailable Data
 
 The following data is unavailable in the dataset:
 
