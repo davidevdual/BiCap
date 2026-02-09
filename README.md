@@ -22,6 +22,8 @@ A unique dataset collected using an RGB camera and an advanced motion capture sy
 ```
 
 ## Changelog
+- 02-2026:
+  * Publish the code of the learning-based Task Planner that uses the data in BiCap.
 
 - 11-2025:
   * Create the website and the GitHub for BiCap.
@@ -82,6 +84,10 @@ The RGB videos were recorded with a [Stereolabs ZED2 camera](https://www.stereol
 
 The participants' motion was captured with four [Vicon Vantage 16](https://help.vicon.com/space/Vantage/15041618/V16+camera+specifications) and four [Vicon MX T160](https://help.vicon.com/download/attachments/11108354/T-Series_GoFurther_Rev1.3_2010Aug.pdf) cameras positioned across the workspace.
 	
+### Use
+
+**An efficient learning-based Task Planner has been developed to enable robots achieve dual-arm manipulation. It uses the data in BiCap. The code can be found in [GitHub] (https://github.com/davidevdual/LfD_Planner/tree/master)**
+
 ## Miscellaneous
 
 ### Subjects Identifiers
