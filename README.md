@@ -86,7 +86,7 @@ The participants' motion was captured with four [Vicon Vantage 16](https://help.
 	
 ### Use
 
-**An efficient learning-based Task Planner has been developed to enable robots achieve dual-arm manipulation. It uses the data in BiCap. The code can be found in [GitHub](https://github.com/davidevdual/LfD_Planner/tree/master)**
+**An efficient learning-based Task Planner has been developed to enable robots achieve dual-arm manipulation. It uses the data in BiCap. The code can be found in [GitHub](https://github.com/davidevdual/LfD_Planner/tree/master)**.
 
 ## Miscellaneous
 
