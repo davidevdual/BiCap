@@ -23,7 +23,7 @@ A unique dataset collected using an RGB camera and an advanced motion capture sy
 
 ## Changelog
 - 02-2026:
-  * Publish the code of the learning-based Task Planner that uses the data in BiCap.
+  * Publish the code of the [learning-based Task Planner](https://github.com/davidevdual/LfD_Planner/tree/master) that uses the data in BiCap.
 
 - 11-2025:
   * Create the website and the GitHub for BiCap.
@@ -86,7 +86,7 @@ The participants' motion was captured with four [Vicon Vantage 16](https://help.
 	
 ### Use
 
-**An efficient learning-based Task Planner has been developed to enable robots achieve dual-arm manipulation. It uses the data in BiCap. The code can be found in [GitHub] (https://github.com/davidevdual/LfD_Planner/tree/master)**
+**An efficient learning-based Task Planner has been developed to enable robots achieve dual-arm manipulation. It uses the data in BiCap. The code can be found in [GitHub](https://github.com/davidevdual/LfD_Planner/tree/master)**
 
 ## Miscellaneous
 
