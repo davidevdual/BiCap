@@ -23,7 +23,7 @@ A unique dataset collected using an RGB camera and an advanced motion capture sy
 
 ## Changelog
 - 02-2026:
-  * Publish the code of the [learning-based Task Planner](https://github.com/davidevdual/LfD_Planner/tree/master) that uses the data in BiCap.
+  * Publish the code of the [learning-based Task Planner](https://github.com/davidevdual/LfD_Planner) that uses the data in BiCap.
 
 - 11-2025:
   * Create the website and the GitHub for BiCap.
@@ -52,7 +52,7 @@ A unique dataset collected using an RGB camera and an advanced motion capture sy
 
 ### Folder Hierarchy
 
-    Human_Dualarm_Manipulation_Dataset
+    BiCap
     ├── Motion Capture                          # Folder containing all the subjects' motion data.
 	│   ├── BBM01                               # Data of the subject number BBM01.
 	│   │    ├── pouring_bowl_cracker_01.csv    # The motion data for the first trial of the subject pouring box of crackers into a bowl.
@@ -86,7 +86,7 @@ The participants' motion was captured with four [Vicon Vantage 16](https://help.
 	
 ### Use
 
-**An efficient learning-based Task Planner has been developed to enable robots achieve dual-arm manipulation. It uses the data in BiCap. The code can be found in [GitHub](https://github.com/davidevdual/LfD_Planner/tree/master)**.
+**An efficient learning-based Task Planner has been developed to enable robots achieve dual-arm manipulation. It uses the data in BiCap. The code can be found in [GitHub](https://github.com/davidevdual/LfD_Planner)**.
 
 ## Miscellaneous
 
